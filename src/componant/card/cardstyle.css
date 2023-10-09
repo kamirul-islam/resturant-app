@@ -1,0 +1,19 @@
+.card-img{
+    overflow: hidden;
+}
+.card-img-top:hover{
+    transform: scale(1.1);
+    transition: 1s;
+    cursor: pointer;
+}
+.card-icon{
+    display: none;
+}
+.card:hover .card-icon{
+    display: inline-block;
+}
+.like:hover{
+    font-size: calc(1.31rem + .6vw)!important;
+    cursor: pointer;
+    margin: -2px 0;
+}
